@@ -5,7 +5,7 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram
 
-Include your ER diagram here
+![ER relation](https://github.com/Narendran-sec/django-orm-app/assets/147473131/dd626c4f-dbbe-4432-866a-0663b7054802)
 
 ## DESIGN STEPS
 
@@ -20,14 +20,9 @@ Create a new app in Django project
 Enter the code for admin.py and models.py
 
 ## PROGRAM
-```
 
-admin.py
-from django.contrib impot admin
-from.models import Football_player,Football_playerAdmin
-admin.site.register(football_player, Football_playerAdmin)
-
-model.py
+```python
+models.py
 from django.db inport models
 from django.contrib import admin
 class Football_player (models.Model):
@@ -41,6 +36,12 @@ class Football_player (admib.ModelAdmin):
 ```
 
 
+```python
+admin.py
+from django.contrib impot admin
+from.models import Football_player,Football_playerAdmin
+admin.site.register(football_player, Football_playerAdmin)
+```
 ## OUTPUT
 
 ![output](https://github.com/Narendran-sec/django-orm-app/assets/147473131/c920007e-5fb3-4246-b4c0-9a4f47fb126c)
